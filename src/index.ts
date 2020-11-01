@@ -4,7 +4,7 @@ import prettier from './prettier';
 
 type AnyObject = { [k in string]: any }
 
-const defineOptions = <T extends AnyObject>(originOptions: T) => (options: Partial<T>) => {
+const defineOptions = <T extends AnyObject>(originOptions: T) => (options: Partial<T> = {}) => {
   const result = {...originOptions} as AnyObject;
 
   Object.keys(options).forEach(key => {
