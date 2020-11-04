@@ -42,6 +42,19 @@ module.exports = require('@spark-build/lint').default.defineStyleLint({
 });
 ```
 
+在 `taro next` 中的 `.eslintrc.js`
+```js
+module.exports = require('@spark-build/lint').default.defineESLint({
+  // 对 eslint 的相关配置进行合并、覆盖
+  parser: '@typescript-eslint/parser',
+  extends: ['taro/react'],
+  rules: {
+    'jsx-quotes': 'off',
+  },
+});
+```
+
+
 ## 开源协议
 
 [MIT](https://tldrlegal.com/license/mit-license)
