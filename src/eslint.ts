@@ -32,6 +32,11 @@ export default {
     '@typescript-eslint/no-empty-interface': 0,
     '@typescript-eslint/no-object-literal-type-assertion': 0,
     'no-nested-ternary': 0,
+
+    // react v17
+    // https://devblogs.microsoft.com/typescript/announcing-typescript-4-1/#react-17-jsx-factories
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off',
     // 'space-before-function-paren': ['error', 'never'],
     // 'no-unused-expressions': ['error', { allowShortCircuit: true, allowTernary: true }],
   }
