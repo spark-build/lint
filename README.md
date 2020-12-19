@@ -4,7 +4,7 @@
 [![](https://img.shields.io/dub/l/vibe-d.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
 
 
-## 按照
+## 安装
 
 ```bash
 $ yarn add @spark-build/lint --registry=https://registry.npm.taobao.org
