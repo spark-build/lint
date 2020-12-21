@@ -23,9 +23,9 @@
     "prepublishPackage": "yarn build && np --no-cleanup --yolo --no-publish --any-branch"
   },
   "dependencies": {
-    "@umijs/fabric": "^2.3.1",
+    "@umijs/fabric": "^2.4.1",
     "eslint-config-airbnb-typescript": "^12.0.0",
-    "eslint-config-taro": "3.0.19",
+    "eslint-config-taro": "3.0.21",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.1.3",
