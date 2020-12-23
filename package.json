@@ -23,7 +23,7 @@
     "prepublishPackage": "yarn build && np --no-cleanup --yolo --no-publish --any-branch"
   },
   "dependencies": {
-    "@umijs/fabric": "^2.4.1",
+    "@umijs/fabric": "^2.4.5",
     "eslint-config-airbnb-typescript": "^12.0.0",
     "eslint-config-taro": "3.0.21",
     "eslint-plugin-eslint-comments": "^3.2.0",
