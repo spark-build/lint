@@ -1,1 +1,1 @@
-module.exports = require('@spark-build/nest-lint').default.defineESLint();
+module.exports = require('@spark-build/lint').default.defineESLint();

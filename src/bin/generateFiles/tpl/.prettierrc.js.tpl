@@ -1,1 +1,1 @@
-module.exports = require('@spark-build/nest-lint').default.definePrettier();
+module.exports = require('@spark-build/lint').default.definePrettier();
