@@ -12,12 +12,15 @@
     "registry": "https://registry.npmjs.org",
     "access": "public"
   },
+  "bin": {
+    "create-lint-config": "dist/bin/index.js"
+  },
   "np": {
     "yarn": false,
     "contents": "dist"
   },
   "scripts": {
-    "build": "tsc --build tsconfig.json",
+    "build": "rm -rf dist && tsc --build tsconfig.json && node copy.js",
     "publishPkg": "yarn build && npm version patch && npm publish",
     "publishPackage": "yarn build && np --no-cleanup --yolo --any-branch",
     "prepublishPackage": "yarn build && np --no-cleanup --yolo --no-publish --any-branch"
@@ -33,5 +36,14 @@
     "eslint-plugin-unicorn": "^28.0.2",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.11.0",
     "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^7.3.1",
+    "chalk": "^4.1.0",
+    "fs-extra": "^9.1.0",
+    "inquirer": "^7.3.3"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }

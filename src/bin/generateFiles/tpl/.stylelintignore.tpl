@@ -1,0 +1,10 @@
+*.js
+*.png
+*.eot
+*.ttf
+*.woff
+lib/
+coverage/
+dist/
+node_modules/
+test/

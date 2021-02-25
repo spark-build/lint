@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "dist",
     "module": "commonjs",
-    "target": "es5",
+    "target": "es2019",
     "lib": ["esnext", "dom"],
     "baseUrl": ".",
     "jsx": "react",
@@ -31,5 +31,5 @@
     "tslint-config-prettier",
     "example/**"
   ],
-  "include": ["src/*.json", "src/*.ts"]
+  "include": ["src/*.json", "src/*.ts", "src/bin/*"]
 }

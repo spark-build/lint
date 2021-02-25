@@ -11,6 +11,10 @@ $ yarn add @spark-build/lint --registry=https://registry.npm.taobao.org
 ```
 
 ## 使用方式
+一键创建 prettier，eslint，stylelint 配置文件
+```bash
+yarn create-lint-config
+```
 
 `.eslintrc.js`
 
