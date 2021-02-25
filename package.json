@@ -1,6 +1,6 @@
 {
   "name": "@spark-build/lint",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "a collection of configuration files containing prettier, eslint, stylelint by umi fabric",
   "author": "atzcl0310@gmail.com",
   "license": "MIT",
