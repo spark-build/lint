@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+import * as chalk from 'chalk'
+
 import { getConfigByUserSelected } from './prompts'
 import { generateFiles } from './generateFiles'
 
@@ -12,7 +14,8 @@ const init = async () => {
     rootDir,
     config.create === 'all' ? true : config.selectCreateFile
   )
-  console.log(config, rootDir)
+
+  console.log(chalk.green(`✔ create lint config file success`))
 }
 
 init()
