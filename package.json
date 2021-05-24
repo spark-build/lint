@@ -26,22 +26,22 @@
     "prepublishPackage": "yarn build && np --no-cleanup --yolo --no-publish --any-branch"
   },
   "dependencies": {
-    "@umijs/fabric": "^2.5.7",
-    "chalk": "^4.1.0",
-    "eslint": "^7.22.0",
+    "@umijs/fabric": "^2.5.13",
+    "chalk": "^4.1.1",
+    "eslint": "^7.27.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.3.1",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-unicorn": "^28.0.2",
-    "eslint-plugin-you-dont-need-lodash-underscore": "^6.11.0",
-    "fs-extra": "^9.1.0",
-    "inquirer": "^8.0.0",
-    "prettier": "^2.2.1"
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-unicorn": "^32.0.1",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.0",
+    "prettier": "^2.3.0"
   },
   "devDependencies": {
-    "@types/fs-extra": "^9.0.8",
+    "@types/fs-extra": "^9.0.11",
     "@types/inquirer": "^7.3.1"
   },
   "engines": {
