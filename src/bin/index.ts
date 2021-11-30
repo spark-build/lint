@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import * as chalk from 'chalk'
+import chalk from 'chalk'
 
 import { getConfigByUserSelected } from './prompts'
 import { generateFiles } from './generateFiles'
